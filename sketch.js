@@ -27,6 +27,7 @@ function keyTyped() {
   }
 
   if (key === 'c') {
+    //clear the canvas 
     clear();
     background(187, 164, 235);
 
