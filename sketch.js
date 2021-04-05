@@ -23,6 +23,14 @@ function keyTyped() {
   if (key === 's') {
     // Save Image
     saveCanvas('fileName', 'jpg')
+
+  }
+
+  if (key === 'c') {
+    clear();
+    background(187, 164, 235);
+
+
   }
 
 
