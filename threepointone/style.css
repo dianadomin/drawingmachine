@@ -1,16 +1,26 @@
 html {
   margin: 0;
   padding: 0;
+  background-color: #fcfcd9;
 }
 
 Body {
-margin: 100px auto 0 auto;
-Width: 90%;
-font-family: fantasy;
+  color: #42294f;
+  font-family: fantasy;
+  font-size: 12pt;
+  text-align: center;
+  text-shadow: 3px 3px #d9c2f2;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:5px;
+  padding-top: 10px;
 
 }
 canvas {
-  margin:0 auto 0 auto;
-  display: block;
-      border: 5px dashed #42294f;
+  margin:auto;
+  top: 0;
+  left:0;
+  position: absolute;
+  z-index: -1;
+      border: 5px solid #42294f;
 }
