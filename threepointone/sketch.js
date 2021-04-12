@@ -8,7 +8,7 @@ function setup() {
 function draw() {
 
   if (mouseIsPressed == true) {
-    stroke(map(mouseX, 0, 600, 0, 255, true))
+    stroke(map(mouseX, 0, 600, 0, 71, true))
     line(mouseX, mouseY, pmouseX, pmouseY);
 
   } //ending for function draw
