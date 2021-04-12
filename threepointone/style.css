@@ -1,7 +1,16 @@
-html, body {
+html {
   margin: 0;
   padding: 0;
 }
+
+Body {
+margin: 100px auto 0 auto;
+Width: 90%;
+font-family: fantasy;
+
+}
 canvas {
+  margin:0 auto 0 auto;
   display: block;
+      border: 5px dashed #42294f;
 }
