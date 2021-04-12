@@ -1,6 +1,6 @@
 function setup() {
-  createCanvas(400, 400);
-  background(187, 164, 235);
+  createCanvas(windowWidth,windowHeight);
+  background(246, 240, 252);
 
   //strokeweight(5);
 }
@@ -29,7 +29,7 @@ function keyTyped() {
   if (key === 'c') {
     //clear the canvas
     clear();
-    background(187, 164, 235);
+    background(246, 240, 252);
 
 
   }
