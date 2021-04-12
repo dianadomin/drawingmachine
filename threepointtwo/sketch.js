@@ -1,3 +1,9 @@
+
+let noiseOffset = 0.0;
+let strokeWidth = 5;
+
+
+
 function setup() {
   createCanvas(windowWidth,windowHeight);
   background(246, 240, 252);
@@ -6,14 +12,15 @@ function setup() {
 }
 
 function draw() {
+background(246, 240, 252, 5);
+strokeWeight(strokeWidth);
 
-  if (mouseIsPressed == true) {
-    stroke(map(mouseX, 0, 600, 0, 255, true))
+noiseOffset += 0.05;
+strokeWidth = noise(noiseOffset) * 200;
+
+    stroke(map(mouseX, 0, 600, 0, 71, true))
+    //line(width - mouseX, height - mouseY, width - pmouseX, height - pmouseY);
     line(mouseX, mouseY, pmouseX, pmouseY);
-
-  } //ending for function draw
-
-
 
 } //ending for function draw()
 
@@ -29,10 +36,10 @@ function keyTyped() {
   if (key === 'c') {
     //clear the canvas
     clear();
-    background(246, 240, 252);
 
 
   }
 
+return false;
 
 } // end for function keyTyped
