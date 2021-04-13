@@ -1,0 +1,31 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://dianadomin.github.io/drawingmachine/drawingmachinefinal/drawingmachineimages/dmbackground.jpg")
+}
+
+Body {
+  color: #42294f;
+  font-family: fantasy;
+  font-size: 12pt;
+  text-align: center;
+  text-shadow: 3px 3px #fff99e;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+
+canvas {
+  display: block;
+  border: auto;
+  border-color: ##1a1a1a;
+  border-width: 5px;
+  margin-left: 430px;
+  border-style: double;
+  border-color: #d1d1d1;
+  padding: 5px;
+  text-align: left;
+  z-index: -1;
+  border: 5px solid #42294f;
+}
